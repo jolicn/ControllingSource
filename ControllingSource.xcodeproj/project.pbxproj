@@ -88,14 +88,8 @@
 			children = (
 				A3BF7EB31A667772002956A2 /* AppDelegate.h */,
 				A3BF7EB41A667772002956A2 /* AppDelegate.m */,
-				A3BF7EB91A667772002956A2 /* MasterViewController.h */,
-				A3BF7EBA1A667772002956A2 /* MasterViewController.m */,
-				A3BF7EBC1A667772002956A2 /* DetailViewController.h */,
-				A3BF7EBD1A667772002956A2 /* DetailViewController.m */,
-				A3BF7EBF1A667772002956A2 /* Main.storyboard */,
-				A3BF7EC21A667772002956A2 /* Images.xcassets */,
-				A3BF7EC41A667772002956A2 /* LaunchScreen.xib */,
-				A3BF7EB61A667772002956A2 /* ControllingSource.xcdatamodeld */,
+				A3BF7EDB1A668E47002956A2 /* View Controllers */,
+				A3BF7EDC1A668E94002956A2 /* Resources */,
 				A3BF7EAF1A667772002956A2 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -125,6 +119,28 @@
 				A3BF7ED01A667772002956A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3BF7EDB1A668E47002956A2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF7EB91A667772002956A2 /* MasterViewController.h */,
+				A3BF7EBA1A667772002956A2 /* MasterViewController.m */,
+				A3BF7EBC1A667772002956A2 /* DetailViewController.h */,
+				A3BF7EBD1A667772002956A2 /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A3BF7EDC1A668E94002956A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF7EBF1A667772002956A2 /* Main.storyboard */,
+				A3BF7EC21A667772002956A2 /* Images.xcassets */,
+				A3BF7EC41A667772002956A2 /* LaunchScreen.xib */,
+				A3BF7EB61A667772002956A2 /* ControllingSource.xcdatamodeld */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
